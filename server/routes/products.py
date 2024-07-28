@@ -15,8 +15,8 @@ product_parser.add_argument('description',type=str,required=True,help='Descripti
 product_parser.add_argument('stock',type=int,required=True,help='stock is required')
 product_parser.add_argument('image_url',type=str,required=True,help='Image URL is required') 
 product_parser.add_argument('category_id',type=int,required=True,help='Category ID is required')
-product_api.add_argument('created_at',type=datetime,required=True,)
-product_api.add_argument('updated_at',type=datetime,required=True)
+product_parser.add_argument('created_at',type=datetime,required=True)
+product_parser.add_argument('updated_at',type=datetime,required=True)
 
 
 
